@@ -35,6 +35,7 @@ class AngApplication : MultiDexApplication(), Configuration.Provider {
     }
 
     override fun getWorkManagerConfiguration(): Configuration {
+        //test
         return Configuration.Builder()
             .setDefaultProcessName("${BuildConfig.APPLICATION_ID}:bg")
             .build()
