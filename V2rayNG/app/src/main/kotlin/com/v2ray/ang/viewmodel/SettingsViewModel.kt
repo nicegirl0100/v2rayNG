@@ -12,6 +12,7 @@ import com.v2ray.ang.util.MmkvManager
 class SettingsViewModel(application: Application) : AndroidViewModel(application), SharedPreferences.OnSharedPreferenceChangeListener {
 
     //check for reality
+    //add by nicegirl
 
     private val settingsStorage by lazy { MMKV.mmkvWithID(MmkvManager.ID_SETTING, MMKV.MULTI_PROCESS_MODE) }
 
